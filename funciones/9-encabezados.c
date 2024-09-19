@@ -4,6 +4,8 @@
 int main() {
 
     int v;
+    int n;
+    int g;
 
     // Llama a las 3 funciones
     funcion1();
@@ -12,6 +14,16 @@ int main() {
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+
+    n =  funcion4(10);
+
+    // Imprime el valor que retornó funcion3()
+    printf("n = %d\n", n);
+
+    g =  funcion5(10);
+
+    // Imprime el valor que retornó funcion3()
+    printf("g = %d\n", g);
 
     return 0;
 
