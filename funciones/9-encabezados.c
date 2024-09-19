@@ -42,3 +42,11 @@ int funcion4(int x) {
     printf("En funcion4()");
     return x;
 }
+
+// funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
+// incrementado en 5
+int funcion5(int x) {
+    printf("En funcion3()...\n");
+    int y = x + 5;
+    return y;
+}
